@@ -1,0 +1,63 @@
+section {
+  padding: 2rem;
+}
+
+section:nth-child(odd) {
+  background-color: #444E58;
+  border-radius: 0.5rem;
+}
+
+section#bio {
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+section#bio *:not(:first-child) {
+  margin-top: 16px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+  }
+}
+
+section#bio h2 {
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 0.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+section#bio img {
+  width: 250px;
+  height: 250px;
+  margin-right: 3rem;
+  border-radius: 50%;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    width: 350px;
+    height: 350px;
+    margin: 0;
+  }
+}
+
+section#bio p {
+  @media screen and (min-width: 768px) {
+    margin-left: 32px;
+  }
+}
+
+section#bio .content {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

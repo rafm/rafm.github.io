@@ -1,0 +1,36 @@
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #24292E;
+  color: #85E89D;
+}
+
+main {
+  max-width: 1920px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.75rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+header {
+  padding: 2rem;
+  text-align: center;
+}
