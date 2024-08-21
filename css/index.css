@@ -7,57 +7,57 @@ section:nth-child(odd) {
   border-radius: 0.5rem;
 }
 
-section#bio {
+#bio {
   text-align: center;
 
   @media screen and (min-width: 768px) {
     text-align: left;
   }
-}
 
-section#bio *:not(:first-child) {
-  margin-top: 16px;
+  *:not(:first-child) {
+    margin-top: 16px;
 
-  @media screen and (min-width: 768px) {
-    margin-top: 0;
+    @media screen and (min-width: 768px) {
+      margin-top: 0;
+    }
   }
-}
 
-section#bio h2 {
-  margin: 0 auto;
+  h2 {
+    margin: 0 auto;
 
-  @media screen and (min-width: 768px) {
-    margin-left: 0.5rem;
-    margin-bottom: 2rem;
+    @media screen and (min-width: 768px) {
+      margin-left: 0.5rem;
+      margin-bottom: 2rem;
+    }
   }
-}
 
-section#bio img {
-  width: 250px;
-  height: 250px;
-  margin-right: 3rem;
-  border-radius: 50%;
-  margin: 0 auto;
+  .content {
+    display: flex;
+    flex-direction: column;
 
-  @media screen and (min-width: 768px) {
-    width: 350px;
-    height: 350px;
-    margin: 0;
-  }
-}
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
 
-section#bio p {
-  @media screen and (min-width: 768px) {
-    margin-left: 32px;
-  }
-}
+    img {
+      width: 250px;
+      height: 250px;
+      margin-right: 3rem;
+      border-radius: 50%;
+      margin: 0 auto;
 
-section#bio .content {
-  display: flex;
-  flex-direction: column;
+      @media screen and (min-width: 768px) {
+        width: 350px;
+        height: 350px;
+        margin: 0;
+      }
+    }
 
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-    justify-content: space-between;
+    p {
+      @media screen and (min-width: 768px) {
+        margin-left: 32px;
+      }
+    }
   }
 }
